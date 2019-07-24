@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'NewRoute.dart';
+import 'RandomWordsWidget.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
@@ -53,7 +54,9 @@ class _MyHomePageState extends State<MyHomePage> {
                    return new NewRoute();
                  }));
               },
-            )
+             
+            ),
+             RandomWordsWidget()
           ],
         ),
       ),
