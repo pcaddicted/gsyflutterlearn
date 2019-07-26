@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gsyflutterlearn/layout/LayoutHomePage.dart';
 import 'package:gsyflutterlearn/widget/HomePage.dart';
 import 'MyHomePage.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(title: 'Flutter Demo Home Pages'),
+      home: LayoutHomePage(title: 'Flutter Demo Home Pages'),
     );
   }
 }
