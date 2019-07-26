@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:gsyflutterlearn/widget/CheckWidget.dart';
 import 'package:gsyflutterlearn/widget/Echo.dart';
+import 'package:gsyflutterlearn/widget/InputWidget.dart';
 import 'package:gsyflutterlearn/widget/ParentWidget.dart';
 import 'package:gsyflutterlearn/widget/TapboxA.dart';
+import 'package:gsyflutterlearn/widget/TextWidget.dart';
 
 class HomePage extends StatelessWidget{
 
@@ -15,7 +18,7 @@ class HomePage extends StatelessWidget{
       appBar: AppBar(
         title: Text(title),
       ),
-      body: ParentWidget(),
+      body: InputWidget(),
     );
   }
 
