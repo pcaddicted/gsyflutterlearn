@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:gsyflutterlearn/function/Function1Page.dart';
 import 'package:gsyflutterlearn/layout/LayoutHomePage.dart';
+import 'package:gsyflutterlearn/listview/GridViewPage.dart';
+import 'package:gsyflutterlearn/listview/ListViewPage.dart';
+import 'package:gsyflutterlearn/listview/ScrollControllerPage.dart';
 import 'package:gsyflutterlearn/scaffold/ScaffoldRoute.dart';
+import 'package:gsyflutterlearn/scroll/ScrollPage.dart';
 import 'package:gsyflutterlearn/widget/HomePage.dart';
 import 'MyHomePage.dart';
 
@@ -14,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ScaffoldRoute(),
+      home: Function1Page(),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gsyflutterlearn/scaffold/MyDrawer.dart';
+import 'package:gsyflutterlearn/scroll/ScrollPage.dart';
 
 class ScaffoldRoute extends StatefulWidget {
 
@@ -24,6 +25,7 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>{
         ],
       ),
       drawer: new MyDrawer(),
+      body: new ScrollPage(),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon:Icon(Icons.home),title: Text('Home')),

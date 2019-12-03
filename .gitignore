@@ -14,6 +14,7 @@
 *.ipr
 *.iws
 .idea/
+build/
 
 # Visual Studio Code related
 .vscode/
@@ -26,7 +27,7 @@
 .pub-cache/
 .pub/
 /build/
-
+.gradle/
 # Android related
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
